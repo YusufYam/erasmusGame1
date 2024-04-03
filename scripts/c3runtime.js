@@ -4892,7 +4892,7 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => and(("Trash can :  " + "%"), v0.GetValue());
+			return () => (and("Trash can :  ", v0.GetValue()) + "%");
 		},
 		() => "ilk",
 		p => {
@@ -4906,32 +4906,32 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const n0 = p._GetNode(0);
-			return () => and(("Paper box :  " + "%"), n0.ExpInstVar_Family());
+			return () => (and("Paper box :  ", n0.ExpInstVar_Family()) + "%");
 		},
 		() => "Plastik Kutusu",
 		p => {
 			const n0 = p._GetNode(0);
-			return () => and(("Plastic box :  " + "%"), n0.ExpInstVar_Family());
+			return () => (and("Plastic box :  ", n0.ExpInstVar_Family()) + "%");
 		},
 		() => "Cam Kutusu",
 		p => {
 			const n0 = p._GetNode(0);
-			return () => and(("Glass box :  " + "%"), n0.ExpInstVar_Family());
+			return () => (and("Glass box :  ", n0.ExpInstVar_Family()) + "%");
 		},
 		() => "Metal Kutusu",
 		p => {
 			const n0 = p._GetNode(0);
-			return () => and(("Iron box :  " + "%"), n0.ExpInstVar_Family());
+			return () => (and("Iron box :  ", n0.ExpInstVar_Family()) + "%");
 		},
 		() => "organik Kutusu",
 		p => {
 			const n0 = p._GetNode(0);
-			return () => and(("Organic box :  " + "%"), n0.ExpInstVar_Family());
+			return () => (and("Organic box :  ", n0.ExpInstVar_Family()) + "%");
 		},
 		() => "eWaste Kutusu",
 		p => {
 			const n0 = p._GetNode(0);
-			return () => and(("Electronic box :  " + "%"), n0.ExpInstVar_Family());
+			return () => (and("Electronic box :  ", n0.ExpInstVar_Family()) + "%");
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -5085,23 +5085,23 @@ self.C3_ExpressionFuncs = [
 		() => -717706215031807,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => and(("Paper box :  " + "%"), v0.GetValue());
+			return () => (and("Paper box :  ", v0.GetValue()) + "%");
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => and(("Plastic box :  " + "%"), v0.GetValue());
+			return () => (and("Plastic box :  ", v0.GetValue()) + "%");
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => and(("Glass box :  " + "%"), v0.GetValue());
+			return () => (and("Glass box :  ", v0.GetValue()) + "%");
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => and(("Iron box :  " + "%"), v0.GetValue());
+			return () => (and("Iron box :  ", v0.GetValue()) + "%");
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => and(("Organic box :  " + "%"), v0.GetValue());
+			return () => (and("Organic box :  ", v0.GetValue()) + "%");
 		},
 		p => {
 			const n0 = p._GetNode(0);
@@ -5109,7 +5109,7 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => and(("Electronic box :  " + "%"), v0.GetValue());
+			return () => (and("Electronic box :  ", v0.GetValue()) + "%");
 		},
 		() => -10,
 		() => "donustur",
